@@ -1,0 +1,1 @@
+dir data: /Volumes/KoshibaSSD3/アンサンブル予測/outputRain

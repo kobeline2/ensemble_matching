@@ -1,0 +1,16 @@
+{
+      "basin": "yahagi",
+      "h": 72,
+      "d4pdfFolder": "/Volumes/KoshibaSSD3/アンサンブル予測/outputRain/d4pdf/",
+      "filename": "*.dat",
+      "methodClustering": "ward2",
+      "threshold": 0.8,
+      "nCluster": 12,
+      "col": 4,
+      "startY": 2018,
+      "startM": 9,
+      "startD": 28,
+      "startH": 9,
+      "amedasFolder": "/Volumes/KoshibaSSD3/アンサンブル予測/outputRain/amedas",
+      "ensFolder": "/Volumes/KoshibaSSD3/アンサンブル予測/outputRain/ensemble"
+  }
