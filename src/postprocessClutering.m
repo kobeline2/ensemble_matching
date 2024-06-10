@@ -5,7 +5,7 @@ function [idx, aveRain, nRainPerCluster, centRain] = postprocessClutering(p, rai
 aveRain = zeros(1, p.nCluster); 
 for i = 1:p.nCluster
     % 各クラスタに属する降雨群のクラスター内平均を計算
-    aveRain(i) = mean(sum(rain(idx==i,:), 2));
+    aveRain(i) = mean(sum(rain(idx==i, :), 2));
 end
 [aveRain, I] = sort(aveRain, 'ascend');
 % 平均値に応じてidxを置換(最小idx=1)

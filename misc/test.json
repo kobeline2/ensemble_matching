@@ -1,0 +1,14 @@
+{
+  "common": {
+    "basin": "yahagi",
+    "h": 6
+  },
+  "d4PDF": {
+    "d4pdfFolder": "~",
+    "filename": "*.dat'"
+  },
+  "amedas_ensemble": {
+    "startY": 2012,
+    "startM": 8
+  }
+}

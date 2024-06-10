@@ -10,7 +10,7 @@ dt = char(dt(1:end-1));
 
 % ヒートマップの作成(large)
 figure('Position',[300 200 900 450]) % 3列目が幅，4列目が高さ
-heat = heatmap(nMember,"Colormap",jet,"ColorLimits",[0 51]);
+heat = heatmap(nMember, "Colormap", jet, "ColorLimits", [0 51]);
 heat.XLabel = 'Initial Time';
 heat.YLabel = 'Cluster Number';
 heat.XDisplayLabels = dt;
